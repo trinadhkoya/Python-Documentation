@@ -14,7 +14,7 @@ class Employee(Person):
         super().__init__(fname, lname)
         self.social_id = ssid
 
-    def __str__(self):
+    def getEmployeeNameWithNumber(self):
         return self.first_name + " " + self.last_name + " " + self.social_id
 
 
@@ -41,4 +41,4 @@ Two ways to call
 '''
 
 print(x)
-print(y)
+print(y.getEmployeeNameWithNumber())
