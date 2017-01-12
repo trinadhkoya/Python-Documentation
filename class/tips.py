@@ -1,8 +1,5 @@
-<< << << < HEAD
-== == == =
-Exercise
-5: More
-Variables and Printing
+
+
 
 my_name = 'Zed A. Shaw'
 my_age = 35  # not a lie
@@ -28,5 +25,4 @@ print
 # this line is tricky, try to get it exactly right
 print
 "If I add %d, %d, and %d I get %d." % (
-    my_age, my_height, my_weight, my_age + my_height + my_weight)
->> >> >> > ade12b5a318379266e195e28afc6c73ee4d36e40
+my_age, my_height, my_weight, my_age + my_height + my_weight)
