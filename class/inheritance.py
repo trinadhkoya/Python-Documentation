@@ -18,10 +18,6 @@ class Employee(Person):
         return self.first_name + " " + self.last_name + " " + self.social_id
 
 
-        # def getEmployeeName(self):
-        #     return self.first_name+self.last_name
-
-
 x = Person("TRINADH", "KOYA")
 '''
 Here we are creating object for person,Once it was done,it checks for init method and stores the passed data in to varibales.
